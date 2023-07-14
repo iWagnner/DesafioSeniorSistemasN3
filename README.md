@@ -73,7 +73,7 @@ spring.profiles.active=suaaplication-desejada.properties
 - O projeto será iniciado e estará disponível em http://localhost:8080.
 
 ## Exemplos de JSON para POST"
-Endpoint: /api/pedidos
+Endpoint: /pedidos
 ```json
 {          "idCliente": "b38a6960-24a0-4bc2-81c3-34e3fd8891c6",
             "idUsuarioGerador": "b07537c8-5a00-4a87-97e1-0cb4ff960df1",
