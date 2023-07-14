@@ -72,5 +72,24 @@ spring.profiles.active=suaaplication-desejada.properties
 - Agora você pode executar o projeto clicando com o botão direito no arquivo principal (Prova3Application.java) e selecionando Run As > Java Application.
 - O projeto será iniciado e estará disponível em http://localhost:8080.
 
+## Exemplos de JSON para POST"
+Endpoint: /api/pedidos
+```json
+{          "idCliente": "b38a6960-24a0-4bc2-81c3-34e3fd8891c6",
+            "idUsuarioGerador": "b07537c8-5a00-4a87-97e1-0cb4ff960df1",
+            "situacao": "ABERTO",
+            "percentualDesconto": 10.00,
+            "observacoes": "Teste",
+              "pedidoitemDTO": [
+                {
+                    "idproduto": "7a7b7de0-9ddf-4a01-996f-df219cd71908",
+                    "nomeProduto": "Entrega Outro Estado",
+                    "quantidade": 5.00,
+                    "desconto": 0.00,
+                    "acrecimo": 10.00
+                }
+            ]
+        }
+```
 ## Contato
 [Linkedin](https://www.linkedin.com/in/wagner-ribeiro-256a221b2/)
