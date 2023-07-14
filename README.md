@@ -38,7 +38,7 @@ Você pode encontrar as regras completas do desafio [aqui](https://github.com/iW
   
 ## Configuração do Ambiente de Desenvolvimento
 - Para configurar e executar o projeto no ambiente da IDE Eclipse, siga as etapas abaixo:
-- Certifique-se de ter o Eclipse IDE instalado em seu computador. Caso precise instalar o Eclipse, você pode baixá-lo [aqui](eclipse.org).
+- Certifique-se de ter o Eclipse IDE instalado em seu computador. Caso precise instalar o Eclipse, você pode baixá-lo [aqui](https://www.eclipse.org).
 - Faça o clone deste repositório do GitHub em sua máquina local, utilizando o seguinte comando:
 ```
 git clone https://github.com/iWagnner/DesafioSeniorSistemasN3.git
