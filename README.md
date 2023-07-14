@@ -73,6 +73,88 @@ spring.profiles.active=suaaplication-desejada.properties
 - O projeto será iniciado e estará disponível em http://localhost:8080.
 
 ## Exemplos de JSON para POST"
+Endpoint: /usuarios
+```json
+ {
+            "nome": "Usuario 99",
+            "login": "Usu99",
+            "senha": "Senha99",
+            "telefone": "47-99756-3062",
+            "email": "Usu99@gmail.com",
+            "cpf": "14529518027",
+            "dataNascimento": "08/11/1995",
+            "logradouro": "Rua Sao Paulo",
+            "complementoLogradouro": "Senior",
+            "numeroLogradouro": "825",
+            "perfilUsuario": "ANALISTACREDITO",
+            "situacao": "ATIVO",
+            "perfis": [
+                "USUARIO"
+            ],
+            "dataCriacao": "12/07/2023",
+            "naturalidade": "SAO_PAULO",
+            "sexo": "MASCULINO",
+            "tipoPessoa": "FISICA",
+            "podeExcluir": "SIM"
+        }
+```
+Endpoint Fornecedor: /entidades
+```json
+{
+            "nome": "Cliente NOVO",
+            "telefone": "4799988-7766",
+            "email": "CliNOVO@gmail.com",
+            "logradouro": "Rua 7 Setembro",
+            "complementoLogradouro": "Neumarket",
+            "numeroLogradouro": "1276",
+            "podeExcluir": "SIM",
+            "perfis": [
+                "FORNECEDOR"
+            ],
+            "tipoPessoa": "JURIDICA",
+            "razaoSocial": "Nova razao social",
+            "cpfCnpj": "69643661059",
+            "inscricaoEstadual": "647392373503",
+        }
+```
+Endpoint Cliente: /entidades
+```json
+{
+            "nome": "Cliente NOVO",
+            "telefone": "4799988-7766",
+            "email": "CliNOVO@gmail.com",
+            "logradouro": "Rua 7 Setembro",
+            "complementoLogradouro": "Neumarket",
+            "numeroLogradouro": "1276",
+            "perfis": [
+                "CLIENTE"
+            ],
+            "tipoPessoa": "FISICA",
+            "razaoSocial": null,
+            "cpfCnpj": "69643661059",
+            "inscricaoEstadual": null,
+            "dataNascimento": "08/11/1995",
+            "sexo": "MASCULINO",
+            "naturalidade": "SANTA_CATARINA"
+        }
+```
+Endpoint: /produtos
+```json
+ {
+            "codigo": 5,
+            "idfornecedor": "d1b93641-5e1b-4c4a-8a20-c1a637f9be5f",
+            "nome": "TV 55 LG NOVO",
+            "tipo": "PRODUTO",
+            "situacao": "ATIVO",
+            "preco": 1000.00,
+            "siglaUnidadeMedida": "UN",
+            "observacao": null,
+            "permiteExcluir": "SIM",
+            "estoqueBloqueado": 5,
+            "estoqueTotal": 55,
+            "permiteEstoqueNegativo": "NAO"
+        }
+```
 Endpoint: /pedidos
 ```json
 {          "idCliente": "b38a6960-24a0-4bc2-81c3-34e3fd8891c6",
