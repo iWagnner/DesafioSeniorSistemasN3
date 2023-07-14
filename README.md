@@ -1,6 +1,6 @@
 # Desafio Senior Sistemas III
 
-Este projeto é uma solução desenvolvida como parte de um desafio de programação de nível III. O objetivo do desafio é criar um sistema de cadastro de pedidos utilizando tecnologias específicas.
+Este projeto é uma solução desenvolvida como parte de um desafio de programação NIII. O objetivo do desafio é criar um sistema de cadastro de pedidos utilizando tecnologias específicas.
 
 ## Descrição do Projeto
 
@@ -25,7 +25,7 @@ Você pode encontrar as regras completas do desafio [aqui](https://github.com/iW
 - Aplicação de desconto: Permite a aplicação de um percentual de desconto no valor total dos produtos de um pedido.
 - Restrições de ações: Impede a exclusão de produtos/serviços associados a pedidos e a adição de produtos desativados em um pedido.
 
-## Tecnologias Mínimas
+## Tecnologias
 
 - Banco de dados PostgreSQL
 - Java 17+
@@ -72,7 +72,7 @@ spring.profiles.active=suaaplication-desejada.properties
 - Agora você pode executar o projeto clicando com o botão direito no arquivo principal (Prova3Application.java) e selecionando Run As > Java Application.
 - O projeto será iniciado e estará disponível em http://localhost:8080.
 
-## Exemplos de JSON para POST"
+## Exemplos de JSON para POST
 Endpoint: /usuarios
 ```json
  {
